@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <title>Work Day Scheduler</title>
+</head>
+
+<body>
+  <header class="jumbotron">
+    <h1 class="display-3">Work Day Scheduler</h1>
+    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <p id="currentDay" class="lead"></p>
+    <button id=clear>Clear All</button>
+  </header>
+  <div class="container">
+    <section class="row">
+      <span class="col-1 hour">9am</span>
+      <textarea id="9" class="col-10 time-block past"></textarea>
+      <button class="col-1 saveBtn" id="9btn">💾</button>
+    </section>
+    <section class="row">
+      <span class="col-1 hour">10am</span>
+      <textarea id="10" class="col-10 time-block past"></textarea>
+      <button class="col-1 saveBtn" id="10btn">💾</button>
+    </section>
+    <section class="row">
+      <span class="col-1 hour">11am</span>
+      <textarea id="11" class="col-10 time-block past"></textarea>
+      <button class="col-1 saveBtn" id="11btn">💾</button>
+    </section>
+    <section class="row">
+      <span class="col-1 hour">12pm</span>
+      <textarea id="12" class="col-10 time-block past"></textarea>
+      <button class="col-1 saveBtn" id="12btn">💾</button>
+    </section>
+    <section class="row">
+      <span class="col-1 hour">1pm</span>
+      <textarea id="13" class="col-10 time-block past"></textarea>
+      <button class="col-1 saveBtn" id="13btn">💾</button>
+    </section>
+    <section class="row">
+      <span class="col-1 hour">2pm</span>
+      <textarea id="14" class="col-10 time-block past"></textarea>
+      <button class="col-1 saveBtn" id="14btn">💾</button>
+    </section>
+    <section class="row">
+      <span class="col-1 hour">3pm</span>
+      <textarea id="15" class="col-10 time-block past"></textarea>
+      <button class="col-1 saveBtn" id="15btn">💾</button>
+    </section>
+    <section class="row">
+      <span class="col-1 hour">4pm</span>
+      <textarea id="16" class="col-10 time-block past"></textarea>
+      <button class="col-1 saveBtn" id="16btn">💾</button>
+    </section>
+    <section class="row">
+      <span class="col-1 hour">5pm</span>
+      <textarea id="17" class="col-10 time-block past"></textarea>
+      <button class="col-1 saveBtn" id="17btn">💾</button>
+    </section>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="assets/script.js"></script>
+</body>
+
+</html>
