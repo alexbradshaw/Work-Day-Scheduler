@@ -56,5 +56,5 @@ container.addEventListener('click', function(event){
 clearButton = document.getElementById('clear')
 clearButton.addEventListener('click', function(){
     localStorage.clear();
-    location.reload()
+    location.reload();
 });
