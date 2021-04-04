@@ -40,10 +40,10 @@ for (var i = timeLater; i < 18; i++) {
 
 // save button logic
 container.addEventListener('click', function(event){
-    elementCheck = JSON.stringify(event.toElement.id)
+    elementCheck = JSON.stringify(event.target.id)
     
     if(elementCheck.includes('btn')){
-        eventID = JSON.stringify(event.toElement.id)
+        eventID = JSON.stringify(event.target.id)
         eventID = eventID.replace('btn', '')
         eventID = JSON.parse(eventID)
         var differentButtons = document.getElementById(eventID)
